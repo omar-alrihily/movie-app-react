@@ -2,10 +2,13 @@ import { useEffect, useState} from 'react'
 
 
 import MovieCard from './MovieCard'
+import './App.css'
 
-import './App.css' ;
+
 
 import SearchIcon from './search.svg' ;
+
+
 
 
 
@@ -50,6 +53,9 @@ function App() {
     },[]);
   return (
     <div className='app'>
+
+  
+
 
 <h1>Omar Movies</h1>
 
